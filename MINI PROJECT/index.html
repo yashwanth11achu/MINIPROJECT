@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A Rent Ride web app</title>
+    <link rel="stylesheet" href="indexhume.css">
+</head>
+
+<body>
+
+    <nav class="home-nav">
+        <div class="homediv">
+            <div class="logo">
+                <h2>RentRide</h2>
+            </div>
+            <ul class="side-bar">
+                <li onclick=hideSidebar() ><a href=#><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#000000"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg></a></li>
+                <li class="link"><a href="index.html">Home</a></li>
+                <li class="link"><a href="about.html">About us</a></li>
+                <li class="link"><a href="contactus.html">Contact Us</a></li>
+                <li><a href="register.html"><input type="submit" value="Signup"></a></li>
+            </ul>
+            <ul class="showmenu">
+
+                <li class="link"><a href="index.html">Home</a></li>
+                <li class="link"><a href="about.html">About us</a></li>
+                <li class="link"><a href="contactus.html">Contact Us</a></li>
+                <li class="link"><a href="register.html"><input type="submit" value="Signup"></a></li>
+                <li class="menu-button" onclick=showSidebar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#000000"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg></a></li>
+            </ul>
+
+        </div>
+
+    </nav>
+    <div class="homepage-info">
+        <div>
+            <h1>First ever <br>car's rent and ride <br>sharing application</h1>
+            <p>Rent Ride is an application where everbody leave your own vehicle
+                for rent. Our app featured that You can share your ride by join in this services by giving lift and can
+                earn a lot. </p>
+            <a href="login.html"><input class="homebtn" type="submit" value="Login"></a>
+            <a href="register.html"><input class="homebtn" type="submit" value="Signup"><br></a>
+
+        </div>
+        <div class="home-img">
+
+        </div>
+
+    </div>
+    <div class="rentstar-home">
+        <p>
+            Are you ready to give your car for only rent service or share your own vehicles
+            while your are going some where and your are willing to act as a driver for them
+            you can Signup as <a href="#">RENTSTAR</a>
+        </p>
+        <p> Click here and Register for RENTSTAR and start earning</p>
+        <input class="homebtn" type="submit" value="Rentstar">
+
+    </div>
+
+    <script>
+function showSidebar(){
+    const sidebar=document.querySelector('.side-bar')
+    sidebar.style.display='flex'
+}
+function hideSidebar(){
+    const sidebar=document.querySelector('.side-bar')
+    sidebar.style.display='none'
+}
+    </script>
+</body>
+
+
+<footer>
+    <div class="footer-page">
+        <ul style="list-style-type:none;">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contactus.html">Contact us</a></li>
+            <li><a href="#">Privacy policy</a></li>
+            <li><a href="#">Safty</a></li>
+        </ul>
+    </div>
+    <div class="social-media">
+        <h4>follow us</h4>
+
+    </div>
+    <div>
+        <img src="/images/icons8-facebook-64.png" alt="" width="40px" height="40px">
+        <img src="/images/twitter-logo.png" alt="" width="40px" height="40px">
+        <img src="/images/insta-logo.png" alt="" width="40px" height="40px">
+        <img src="/images/linkdin-logo.png" alt="" width="40px" height="40px">
+
+
+    </div>
+
+
+</footer>
+
+
+</html>

@@ -1,0 +1,7 @@
+    <script>
+        const menu= document.querySelector('.menu')
+        const menuList=document.querySelector('.home-nav ul li')
+        menu.addEventListener('click',()=>{
+            menuList.classList.toggle('.showmenu')
+        })
+    </script>

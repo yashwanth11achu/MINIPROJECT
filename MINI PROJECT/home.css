@@ -1,0 +1,75 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: rgb(254, 253, 235);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-image:  url(/images/login.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.reg-container{
+    width: 500px;
+   margin: 50px auto;
+    align-items: center;
+    background-color: rgba(234, 228, 213, 0.727);
+    align-items: center;
+    border-radius: 5px;
+    box-shadow: 1px 1px 10px 1px;
+   
+}
+.reg-div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    
+}
+.reg-div input{
+    padding: 10px;
+    font-size: 1.1em;
+    width: 100%;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+.reg-div input:hover{
+    background-color: rgba(0, 0, 0, 0.134);
+}
+.reg-container h1{
+    text-align: center;
+    padding: 10px;
+    color:#2d0067;
+    font-size: 2.5em;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+.check{
+    text-align: center;
+    font-size: 1.02em;
+    padding: 20px;
+}
+.reg-div button{
+    width: 100%;
+    padding: 10px;
+    font-size: 1.1em;
+    border: none;
+    background-color:rgb(253, 233, 17); ;
+    border-radius: 20px;
+}
+.reg-div button:hover{
+    background-color: rgb(244, 204, 27);
+}
+.reg-div button:active{
+    background-color: rgba(255, 208, 0, 0.511);
+}
+@media(max-width:500px){
+    .reg-container{
+        width: 350px;
+        height: 600px;
+        align-items: center;
+        text-align: center;
+       
+    }
+
+}
